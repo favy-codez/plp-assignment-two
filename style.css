@@ -6,8 +6,8 @@
 }
 
 header {
-  background-color: #000;
-  color: white;
+  /* background-color: #000; */
+  color: #4caf50;
   padding: 10px 0;
   text-align: center;
 }
@@ -18,8 +18,8 @@ header {
   padding: 20px 20px;
 }
 
-header h2{
-    color: #4caf50;
+header h2 {
+  color: #4caf50;
 }
 
 .nav a {
@@ -29,18 +29,23 @@ header h2{
   font-weight: bold;
 }
 
-.section {
-  margin: 20px;
-  padding: 20px;
+.gallery-section {
+  padding: 12px 0 0 30px;
+}
+
+.gallery-section h3 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 12px 0 28px 0;
+  text-decoration: underline;
 }
 
 .gallery {
-  
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
-.gallery img {
+.gallery-section img {
   height: 200px;
   width: 320px;
 }
@@ -52,4 +57,41 @@ header h2{
 
 .menu li {
   margin: 10px 0;
+}
+
+.welcome-sec {
+  font-size: 2rem;
+  background-color: #859e86;
+  color: #fff;
+  padding: 10px 0;
+}
+
+#hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0px 0 60px;
+}
+
+.hero-text h2 {
+  margin: 70px 0 0 0;
+  font-size: 2rem;
+  color: #4caf50;
+}
+
+.hero-text p {
+  font-size: 25px;
+  margin: 15px 0 0 0;
+  width: 550px;
+}
+
+#hero-img img {
+  width: 600px;
+}
+
+
+figcaption{
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    font-size: 20px;
 }
