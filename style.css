@@ -4,39 +4,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
-  background-color: #4caf50;
+  background-color: #000;
   color: white;
   padding: 10px 0;
   text-align: center;
 }
-nav {
-  margin: 20px;
-  text-align: center;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
 }
-nav a {
-  margin: 0 15px;
+
+header h2{
+    color: #4caf50;
+}
+
+.nav a {
+  margin: 5px 15px;
   text-decoration: none;
   color: #4caf50;
   font-weight: bold;
 }
+
 .section {
   margin: 20px;
   padding: 20px;
 }
+
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
+
 .gallery img {
-  width: 30%;
-  margin: 10px 0;
+  height: 200px;
+  width: 320px;
 }
+
 .menu ul {
   list-style-type: none;
   padding: 0;
 }
+
 .menu li {
   margin: 10px 0;
 }
